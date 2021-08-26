@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>./docvert.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>./drop-file.png</file>
+  </qresource>
+</RCC>
