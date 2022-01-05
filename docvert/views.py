@@ -1,13 +1,13 @@
+import os
 from PyQt5 import QtCore
 from docvert.ui.custom_widgets import FileListItem, CustomDialog
-import os
 from pathlib import Path
-from PyQt5 import QtWidgets, QtGui
+from PyQt5 import QtWidgets
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtWidgets import QWidget, QFileDialog
 from .ui.window import Ui_Form
 from .converter import Converter, Merger
-from . import docvert_qrc
+
 
 
 BASE_PATH = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') + "\\"
